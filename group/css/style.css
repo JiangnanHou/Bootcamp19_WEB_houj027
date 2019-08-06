@@ -1,0 +1,13 @@
+.img{
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin: 50px;
+}
+
+.text{
+	color: white;
+	float: left;
+	width:700px;
+	margin: 50px;
+}
