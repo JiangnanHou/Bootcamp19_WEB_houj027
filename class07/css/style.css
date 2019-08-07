@@ -1,0 +1,53 @@
+
+.block{
+	z-index: -1;
+	width: 500px;
+	height: 700px;
+	background-color: black;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	animation-name: bg;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes bg {
+	0%{background-color: black}
+	25%{background-color: brown}
+	50%{background-color: MediumSeaGreen}
+	75%{background-color: Gold}
+	100%{background-color: black}
+}
+
+.t{ 
+    color: Gainsboro;
+	text-align: center;
+	vertical-align: top;
+	font-size: 490px;
+/*	font-family: Helvetica Neue, bold;*/
+	font-family: Arial;
+
+	width: 500px;
+	height: 350px;
+
+    position: fixed;
+    left: -10px;
+
+
+ /*   display: block;*/
+}
+
+.t:hover {
+	transform: rotate(360deg);
+}
+
+.st{
+	color:yellow;
+	font-size: 10px;
+	font-family: Arial;
+	position: fixed;
+	left: 210px;
+	top:35px;
+
+}
